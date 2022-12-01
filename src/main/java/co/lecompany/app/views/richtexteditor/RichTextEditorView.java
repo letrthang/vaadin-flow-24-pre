@@ -11,9 +11,9 @@ import com.vaadin.flow.router.Route;
 
 @PageTitle("Rich Text Editor")
 @Route(value = "rich-text-editor")
-public class RichTextRichTextEditorView extends Main {
+public class RichTextEditorView extends Main {
 
-    public RichTextRichTextEditorView() {
+    public RichTextEditorView() {
         addClassNames("flex", "flex-grow", "h-full");
 
         // Editor

@@ -2,8 +2,10 @@ package co.lecompany.app.data.entity;
 
 import dev.hilla.Nonnull;
 import jakarta.persistence.Entity;
+import jakarta.validation.constraints.Email;
+
 import java.time.LocalDate;
-import javax.validation.constraints.Email;
+
 
 @Entity
 public class SamplePerson extends AbstractEntity {
